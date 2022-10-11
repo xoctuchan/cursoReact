@@ -3,6 +3,7 @@
 # dependencies
 /02-intro-javascript/node_modules
 /03-counter-app-vite/node_modules
+/04-gif-expert-app/node_modules
 /02-intro-javascript/.pnp
 /02-intro-javascript/.pnp.js
 
