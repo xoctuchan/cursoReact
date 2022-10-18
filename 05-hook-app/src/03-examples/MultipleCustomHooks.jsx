@@ -9,7 +9,7 @@ export const MultipleCustomHooks = () => {
     const {author, quote} = !!data && data[0];
     return (
         <>
-            <h1>BrakingBad Quotes</h1>
+            <h1>BreakingBad Quotes</h1>
             <hr />
             {
                 isLoading 
@@ -20,7 +20,7 @@ export const MultipleCustomHooks = () => {
                 onClick={() =>incrementar()}
                 disabled={isLoading}
             >
-                Next Quote 
+                Next quote 
             </button>
         </>
     )

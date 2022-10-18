@@ -4,11 +4,11 @@ export const useCounter = (initialValue=10)=>{
     const [counter, setCounter] = useState(initialValue)
 
     const incrementar = (value=1)=>{
-        setCounter(counter+value);
+        setCounter((current) => current+value);
     }
 
-    const decrementar = ()=>{
-        setCounter(counter-1);
+    const decrementar = (value=1)=>{
+        setCounter((current) => current-value);
     }
 
     const reset = ()=>{
