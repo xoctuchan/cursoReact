@@ -21,6 +21,9 @@ const EventoSchema = Schema({
         type: Schema.Types.ObjectId,
         ref: 'Usuario',
         required: true
+    },
+    bgColor: {
+        type: String,        
     }
 
 });
